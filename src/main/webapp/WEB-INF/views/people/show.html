@@ -5,8 +5,15 @@
 	<title>Person</title>
 </head>
 <body>
-<p>Person name is <b><span th:text="${person.getName()}">NAME</span></b></p>
+
 <p>Person id = <b><span th:text="${person.getId()}">ID</span></b></p>
+
+<p>Person name is <b><span th:text="${person.getName()}">NAME</span></b></p>
+
+<p>Person age = <b><span th:text="${person.getAge()}"></span></b></p>
+
+<p>Person email = <b><span th:text="${person.getEmail()}"></span></b></p>
+
 <br>
 <a th:href="@{/people}">Back</a>
 <br>
